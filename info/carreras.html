@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="color_mode.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>Sitio web para registrar a los estudiantes becados de UPTJAA</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="IMG/uptjaa_detalles3.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="estilo/estilo_carreras.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+ <!-- Barra del Sitio -->
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">UPTJAA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acerca.html">Acerca de...</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Carreras</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+   <!--inicio del carrusel -->
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG/uptjaa1.jpg" width="100%" height="100%">
+        <svg class="bd-placeholder-img" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Sedes de UPTJAA.</h1>
+            <p class="opacity-75">La universidad politecnica-territorial Jose Antonio Anzoategui se caracteriza por tener varias sedes al rededor del pais.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://sites.google.com/view/planuptjaacontingencia">Conocer sedes</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/uptjaa2.jpg" width="100%" height="100%">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>UPTJAA El Tigre.</h1>
+            <p>Conoce mas acerca de la sede principal de nuestra universidad viendo su sitio web oficial.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://sites.google.com/view/uptjaa/programas-nacionales-de-formaci%C3%B3n?authuser=0">Visitar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/uptjaa3.jpg" width="100%" height="100%">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Redes sociales de UPTJAA.</h1>
+            <p>Si deseas conocer mas sobre nuestra universidad te invitamos a que vayas su sitio principal.</p>
+            <p><a class="btn btn-lg btn-primary" href="https://instagram.com/prensa.uptjaa?igshid=MzRlODBiNWFlZA==">UPTJAA Instagram</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--fin del carrusel -->
+
+  <!--Texto de esta pagina -->
+  <section>
+    <h1 class="titulo">Carreras</h1>
+    <div class="contenedor-preguntas">
+      <div class="preguntas">
+        <button>
+          <span>PNF Administración</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de Administración de Empresas se enfoca en la organización, planificación, dirección y control de los recursos de una entidad con el objetivo de lograr crecimiento y eficiencia. Al estudiar esta carrera, podrás desarrollar habilidades para optimizar y administrar la operación de una empresa, implementar planes de negocio y administración de alta calidad, y guiar a las empresas para utilizar eficazmente sus recursos. Además, la carrera de Administración de Empresas te brinda la oportunidad de emprender y destacar en el mundo de los negocios. 
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Informatica</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de informática se enfoca en formar profesionales capaces de gestionar, desarrollar e innovar en el ámbito de la tecnología y los sistemas informáticos, tanto en software como en hardware. Esta carrera ofrece amplias oportunidades laborales, ya que la demanda de profesionales en este campo es alta. Los informáticos pueden trabajar en empresas de tecnología, instituciones educativas, organizaciones gubernamentales, consultorías, entre otros. Además, la informática es una disciplina que ofrece buenas perspectivas de empleo y salarios competitivos.
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Mantenimiento</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La ingeniería en mantenimiento es la rama de la ingeniería que se enfoca en la optimiación de equipos, procedimientos y presupuestos para lograr un mejro mantenimiento para lograr una mejor y mantenibilidad, fiabilidad de sistemas y disponibilidad de los equipos.
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Agroalimentación</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de Agroalimentación, también conocida como Ingeniería Agroalimentaria, se enfoca en la investigación, desarrollo y aplicación de métodos y técnicas para obtener productos aptos para el consumo humano en el ámbito agrícola y alimentario. Se centra en la producción, gestión y mejora de alimentos vegetales y animales, aplicando técnicas y métodos de producción sostenibles, y teniendo en cuenta aspectos de calidad, seguridad alimentaria y conservación del medio ambiente. Además, implica la investigación y desarrollo de nuevos procesos y la comercialización de productos agroalimentarios.
+          </p>
+    </div>
+
+     <div class="preguntas">
+        <button>
+          <span>PNF Electricidad</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de electricidad, específicamente la Ingeniería Eléctrica, se dedica al estudio, creación y aplicación de la electricidad, electromagnetismo, electromecánica y la electrónica a sistemas eléctricos de potencia que abarcan todos los campos de la vida humana en la actualidad. Ofrece diversas oportunidades laborales en áreas como la industria, el sector energético, las telecomunicaciones, la investigación y el desarrollo tecnológico. Los profesionales de esta carrera pueden desempeñarse como ingenieros eléctricos, consultores, investigadores, docentes, entre otros roles relacionados con la electricidad y los sistemas eléctricos.
+          </p>
+    </div>
+
+     <div class="preguntas">
+        <button>
+          <span>PNF Mecánica</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera en ingeniería mecánica es una rama de la ingeniería que se encarga de diseñar, construir y mejorar todo tipo de partes mecánicas y dispositivos. Los ingenieros mecánicos son profesionales altamente cualificados que investigan, diseñan, desarrollan, construyen y prueban dispositivos mecánicos y térmicos, incluidos motores, máquinas y herramientas. La carrera de ingeniería mecánica es una rama compuesta por muchas subdivisiones, como pueden ser eléctrica, automotriz, electrónica, energética, administrativa o electromecánica. Los estudiantes de ingeniería mecánica adquieren los conocimientos necesarios para trabajar todo el proceso de maquinaria, desde la concepción de la idea hasta el funcionamiento y seguimiento, siendo capaces de solucionar cualquier problema posterior
+          </p>
+    </div>
+
+     <div class="preguntas">
+        <button>
+          <span>PNF Seguridad Alimentaria y Cultural Nutricional</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            Esta carrera busca formar profesionales para el logro de la soberanía alimentaria, a través de la gestión de la seguridad alimentaria, el óptimo estado nutricional de la población y la promoción de la cultura alimentaria. Los estudiantes de esta carrera aprenderán a reconocer y describir las diferentes técnicas de preparación y conservación de los alimentos, así como a relacionar y proponer diferentes técnicas ancestrales y modernas. También analizarán las prácticas alimentarias de la población como parte integrada de la totalidad cultural, lo que les permitirá conocer los modos de obtención, distribución de los alimentos, quién y cómo los prepara, y aportar soluciones sustentables a problemáticas de carácter alimentario
+          </p>
+    </div> 
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Procesos Químicos</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+           La carrera de Procesos Químicos se enfoca en el estudio, diseño, desarrollo, operación y optimización de procesos químicos para la transformación de materias primas en la fabricación de nuevos productos. Los ingenieros en Procesos Químicos son profesionales multidisciplinarios que aplican principios de las ciencias biológicas, químicas, físicas, matemáticas aplicadas, estadística, economía y ciencias ambientales. En esta carrera se debe ser versátil y tener una amplia aplicación en diversos sectores industriales, contribuyendo a la creación de productos comerciales rentables para las empresas. Los ingenieros en Procesos Químicos pueden trabajar en industrias como la petroquímica, farmacéutica, alimentaria, energética, medioambiental, entre otras.
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Química</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de Química es una disciplina que permite conocer y entender cómo funciona el mundo que nos rodea, y gracias a ella se realizan investigaciones y progresos en ámbitos como la salud, la alimentación, la informática y en diversas industrias. La carrera tiene una amplia salida laboral, un programa repleto de contenido práctico y una duración de entre 4 y 5 años.
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Contaduría Pública</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de Contaduría Pública se enfoca en el análisis y seguimiento financiero en instituciones públicas. Los contadores públicos son profesionales que utilizan competencias contables, financieras y fiscales para tomar decisiones acertadas que potencian el crecimiento y el desarrollo de las empresas. La carrera de Contaduría consiste en capacitar a individuos de información financiera, fiscal y administrativa para que puedan manejar y analizar correctamente los presupuestos, costos e impuestos de empresas. Al estudiar Contaduría Pública, se verán asignaturas como contabilidad general, microeconomía, macroeconomía, auditoría, inversión, presupuestos, recaudación de impuestos y gastos. 
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Industrial</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La ingeniería industrial es una carrera multidisciplinaria que combina conocimientos de matemáticas, ciencias, tecnología, administración y economía. Los ingenieros industriales trabajan en una amplia variedad de industrias, como la automoción, la industria aeroespacial, el procesamiento de alimentos, el refinado de petróleo y la industria química. Se encargan de la optimización de los sistemas productivos y logísticos en una industria, así como del análisis, interpretación, comprensión y control de estos sistemas.
+          </p>
+    </div>
+
+    <div class="preguntas">
+        <button>
+          <span>PNF Veterinaria</span>
+          <span class="material-symbols-outlined">stat_minus_2</span>
+        </button>
+          <p>
+            La carrera de veterinaria se enfoca en el estudio de la salud y bienestar animal, así como en la prevención, diagnóstico y tratamiento de enfermedades, trastornos y lesiones en animales. Es importante destacar que para estudiar veterinaria, es necesario tener aptitudes como el amor por los animales, la compasión y el compromiso con su bienestar. Además, la carrera de veterinaria ofrece una alta tasa de empleabilidad y buenos salarios.
+          </p>
+    </div>
+  </section>
+
+
+
+  <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
